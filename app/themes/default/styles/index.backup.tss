@@ -1,0 +1,102 @@
+".container": {
+	backgroundColor:"white",
+	navBarHidden: "true",
+	exitOnClose: "true",
+	orientationModes: [Ti.UI.PORTRAIT,Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT,Ti.UI.UPSIDE_PORTRAIT]
+},
+"#appMenu": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	backgroundColor: "#ededed",
+	layout: "vertical"
+},
+"#menuHeader":{
+	width: Ti.UI.FILL,
+	height: "55dp",
+	backgroundColor:"#468bc0"
+},
+"#menuTitle":{
+	left: 5,
+	font:{
+		fontSize: "20dp",
+		fontWeight: "bold"
+	}
+},
+"#menuListRow":{
+	height: "30dp"
+},
+"#menuListRowLabel":{
+	left: 5
+},
+"#appMain":{
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	layout: "vertical",
+	backgroundColor: "#cacaca"
+},
+"#mainHeader":{
+	width: Ti.UI.FILL,
+	height: "55dp",
+	backgroundColor:"#352f2a",
+	layout: "horizontal"
+},
+"#menuButton":{
+	backgroundColor: "#564950",
+	backgroundImage: "/transbtn.png",
+	height: "55dp",
+	width: "55dp"
+},
+"#mainList":{
+	backgroundColor: "#a68669",
+	separatorColor:'transparent'
+},
+"#mainListRow":{
+	backgroundColor: "#a68669",
+	selectionStyle: "NONE",
+	className:"listRow"
+},
+"#mainListRowContainer":{
+	height: "60dp",
+	width: Ti.UI.FILL,
+	top: 5,
+	left: 5,
+	bottom: 5,
+	right: 5,
+	backgroundColor: "#f8f8f8",
+	borderWidth: 1,
+	borderColor: "#878787",
+	borderRadius: 5,
+	layout: "vertical"
+},
+"#mainListRowLine1[platform=android]":{
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	top: 5,
+	left: 5,
+	color: "#000",
+	font:{
+		fontSize: "20dp",
+		fontWeight: "bold"
+	}	
+},
+"#mainListRowLine1[platform=ios]":{
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	top: 5,
+	left: 5,
+	color: "#000",
+	font:{
+		fontSize: "18dp",
+		fontWeight: "bold"
+	}	
+},
+"#mainListRowLine2":{
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	bottom: 5,
+	left: 5,
+	color: "red",
+	font:{
+		fontSize: "15dp"
+	}
+}

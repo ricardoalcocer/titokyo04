@@ -1,0 +1,21 @@
+<Alloy>
+	<View id="appMain">
+		<View id="mainHeader">
+			<View id="menuButton"></View>
+		</View>
+		<TableView id="mainList">
+			<TableViewRow id="mainListRow">
+				<View id="mainListRowContainer">
+					<Label id="mainListRowLine1">Some sample content goes here</Label>
+					<Label id="mainListRowLine2">12/12/2012</Label>
+				</View>
+			</TableViewRow>
+			<TableViewRow id="mainListRow">
+				<View id="mainListRowContainer">
+					<Label id="mainListRowLine1">Some sample content goes here</Label>
+					<Label id="mainListRowLine2">12/12/2012</Label>
+				</View>
+			</TableViewRow>
+		</TableView>
+	</View>
+</Alloy>

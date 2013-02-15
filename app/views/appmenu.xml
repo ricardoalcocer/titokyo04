@@ -1,0 +1,18 @@
+<Alloy>
+	<View id="appMenu">
+		<View id="menuHeader">
+			<Label id="menuTitle">MENU</Label>
+		</View>
+		<TableView id="menuList">
+			<TableViewRow id="menuListRow">
+				<Label id="menuListRowLabel">Option 1</Label>
+			</TableViewRow>
+			<TableViewRow id="menuListRow">
+				<Label id="menuListRowLabel">Option 2</Label>
+			</TableViewRow>
+			<TableViewRow id="menuListRow">
+				<Label id="menuListRowLabel">Option 3</Label>
+			</TableViewRow>
+		</TableView>
+	</View>
+</Alloy>

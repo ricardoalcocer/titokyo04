@@ -1,0 +1,24 @@
+"#appMenu": {
+	width: Ti.UI.FILL,
+	height: Ti.UI.FILL,
+	backgroundColor: "#ededed",
+	layout: "vertical"
+},
+"#menuHeader":{
+	width: Ti.UI.FILL,
+	height: "55dp",
+	backgroundColor:"#468bc0"
+},
+"#menuTitle":{
+	left: 5,
+	font:{
+		fontSize: "20dp",
+		fontWeight: "bold"
+	}
+},
+"#menuListRow":{
+	height: "30dp"
+},
+"#menuListRowLabel":{
+	left: 5
+}
